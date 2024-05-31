@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.search {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  padding: auto;
+ 
+}
+
+.icon {
+  width: 24px; /* Adjust size as needed */
+  height: 24px;
+}

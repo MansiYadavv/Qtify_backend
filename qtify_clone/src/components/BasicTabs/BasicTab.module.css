@@ -1,0 +1,14 @@
+.tabs .MuiTab-root {
+    color: #34c94b; /* Custom tab text color */
+    font-weight: bold; /* Customize font weight */
+    text-transform: none; /* Remove uppercase transformation */
+  }
+  
+  .tabs .Mui-selected {
+    color: #34c94b; /* Customize selected tab color */
+  }
+  
+  .tabs .MuiTab-root:hover {
+    color: #34c94b; /* Customize hover color */
+  }
+  

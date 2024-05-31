@@ -1,0 +1,35 @@
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filterButton {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .filterButton:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .filterButton.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .tab {
+    color: #fff;
+    text-transform: none;
+  }
+  
+  .tab.Mui-selected {
+    color: var(--color-primary);
+  }
+  

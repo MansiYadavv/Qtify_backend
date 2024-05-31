@@ -1,0 +1,24 @@
+:root {
+    --background-color: #121212; /* Black background color */
+    --text-color: #ffffff; /* White text color */
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for mode change */
+  }
+  
+  .wrapper {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+  
