@@ -3,7 +3,7 @@ import styles from "./Cards.module.css"
 import {Chip, Tooltip} from '@mui/material'
 
 const Card = ({data,type}) => {
-
+console.log(type);
   const getCard = (type) => {
 
     switch(type) {
@@ -28,7 +28,7 @@ const Card = ({data,type}) => {
           </Tooltip>
         )
       }
-      case "song" : {
+      case "songs" : {
 
         const {image,likes,title,songs} = data;
         return (

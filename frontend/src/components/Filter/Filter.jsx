@@ -55,6 +55,7 @@ const Filter = ({
   value,
   handleChange,
 }) => {
+  console.log(filteredDataValues);
   return (
     <div>
       <div className={styles.header}>
